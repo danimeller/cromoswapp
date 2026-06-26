@@ -1,3 +1,177 @@
+# POLÍTICA DE PRIVACIDAD DE CROMOSWAP
+
+**Última actualización:** Junio 2025  
+**Versión:** 1.0 [BETA]
+
+---
+
+## 1. IDENTIFICACIÓN DEL RESPONSABLE
+
+**Nombre de la app:** CromoSwap  
+**Responsable del tratamiento:** Daniel Meller
+**Email de contacto:** privacidad@cromoswap.com  
+**País:** España (aplicable normativa RGPD europea)
+
+---
+
+## 2. DATOS QUE RECOGEMOS Y POR QUÉ
+
+### 2.1 Datos de registro y perfil
+- **Qué:** Email, nombre de usuario, contraseña (cifrada), Fecha de nacimiento (Acceso para mayores)
+- **Por qué:** Crear y gestionar tu cuenta
+- **Base legal:** Ejecución de contrato (art. 6.1.b RGPD)
+
+### 2.2 Datos de colección y cromos
+- **Qué:** Cromos que tienes, que te faltan y repetidos; colecciones que sigues
+- **Por qué:** Ofrecerte el servicio principal de la app
+- **Base legal:** Ejecución de contrato
+
+### 2.3 Ubicación geográfica
+- **Qué:** Tu posición GPS aproximada cuando usas el mapa
+- **Por qué:** Mostrarte coleccionistas cercanos con quienes intercambiar
+- **Base legal:** Consentimiento explícito (art. 6.1.a RGPD)
+- **Importante:** Solo se recoge cuando tienes la app abierta y has dado permiso. Nunca en segundo plano sin tu conocimiento. Puedes desactivarlo en Ajustes → Privacidad → Visible en el mapa.
+
+### 2.4 Imágenes y cámara
+- **Qué:** Fotos tomadas para escanear cromos o tu foto de perfil
+- **Por qué:** Reconocimiento automático de números de cromos mediante IA (ML Kit, procesado 100% en tu dispositivo, sin enviar imágenes a servidores)
+- **Base legal:** Consentimiento
+- **Importante:** Las imágenes del scanner NO se almacenan ni se envían a ningún servidor externo. El procesamiento es local en tu móvil.
+
+### 2.5 Mensajes del chat
+- **Qué:** Mensajes intercambiados entre usuarios durante un intercambio
+- **Por qué:** Facilitar la comunicación entre coleccionistas
+- **Base legal:** Ejecución de contrato
+- **Importante:** Los mensajes están cifrados en tránsito. Solo los participantes del intercambio pueden leerlos.
+
+### 2.6 Datos de uso y técnicos
+- **Qué:** Tipo de dispositivo, versión del sistema operativo, idioma, errores de la app
+- **Por qué:** Mejorar el rendimiento y corregir errores
+- **Base legal:** Interés legítimo (art. 6.1.f RGPD)
+
+### 2.7 Tokens de notificación push
+- **Qué:** Identificador anónimo de tu dispositivo para notificaciones
+- **Por qué:** Enviarte alertas de nuevos intercambios, mensajes y coleccionistas cercanos
+- **Base legal:** Consentimiento
+- **Puedes desactivarlas** en Ajustes → Notificaciones
+
+---
+
+## 3. CON QUIÉN COMPARTIMOS TUS DATOS
+
+**No vendemos tus datos a nadie.** Los compartimos únicamente con:
+
+### 3.1 Supabase (proveedor de base de datos)
+- Almacena los datos de tu cuenta, colecciones e intercambios
+- Servidores en Europa (Frankfurt)
+- Cumple con RGPD
+- Más info: https://supabase.com/privacy
+
+### 3.2 Google (Maps y ML Kit)
+- Google Maps: para mostrar el mapa de coleccionistas cercanos. Google recibe tu ubicación aproximada cuando usas el mapa.
+- ML Kit: procesamiento de imágenes 100% local, Google NO recibe las imágenes.
+- Política de Google: https://policies.google.com/privacy
+
+### 3.3 Firebase (Google) — notificaciones push
+- Solo si has dado permiso para notificaciones
+- Google recibe un token anónimo de tu dispositivo
+- No recibe el contenido de los mensajes
+
+### 3.4 Otros usuarios de la app
+- Tu nombre de usuario, foto de perfil y ciudad son visibles para otros usuarios
+- Tu ubicación aproximada es visible en el mapa solo si activas "Visible en el mapa"
+- Los cromos que tienes y te faltan son visibles para facilitar los intercambios
+
+---
+
+## 4. CUÁNTO TIEMPO GUARDAMOS TUS DATOS
+
+| Tipo de dato | Tiempo de conservación |
+|---|---|
+| Datos de cuenta | Hasta que elimines la cuenta |
+| Cromos y colecciones | Hasta que elimines la cuenta |
+| Mensajes del chat | 12 meses desde el intercambio |
+| Ubicación | Se actualiza en tiempo real, no se guarda historial |
+| Logs técnicos | 90 días |
+| Tokens de notificación | Hasta que desinstales la app o revoques el permiso |
+
+---
+
+## 5. TUS DERECHOS (RGPD)
+
+Tienes derecho a:
+
+- **Acceso:** Solicitar una copia de todos tus datos
+- **Rectificación:** Corregir datos incorrectos desde tu perfil
+- **Supresión:** Eliminar tu cuenta y todos tus datos desde Ajustes → Eliminar cuenta
+- **Portabilidad:** Recibir tus datos en formato legible por máquina
+- **Oposición:** Oponerte al tratamiento basado en interés legítimo
+- **Limitación:** Solicitar que limitemos el uso de tus datos
+- **Retirar el consentimiento:** En cualquier momento sin consecuencias
+
+Para ejercer tus derechos: **privacidad@cromoswap.com**  
+Plazo de respuesta: 30 días (prorrogable 2 meses en casos complejos)
+
+También puedes reclamar ante la **Agencia Española de Protección de Datos (AEPD):** www.aepd.es
+
+---
+
+## 6. SEGURIDAD DE TUS DATOS
+
+Aplicamos las siguientes medidas de seguridad:
+
+- ✅ Contraseñas cifradas con bcrypt (nunca guardamos tu contraseña en texto plano)
+- ✅ Conexiones cifradas con TLS/HTTPS
+- ✅ Row Level Security (RLS) en base de datos — cada usuario solo accede a sus propios datos
+- ✅ Tokens de sesión con expiración automática
+- ✅ Imágenes del scanner procesadas localmente sin envío a servidores
+
+---
+
+## 7. MENORES DE EDAD
+
+CromoSwap no está dirigida a menores de 14 años (según la legislación española).  
+Si eres menor de 14 años, necesitas el consentimiento de tus padres o tutores legales.  
+Si detectamos una cuenta de un menor sin consentimiento parental, la eliminaremos.
+
+---
+
+## 8. TRANSFERENCIAS INTERNACIONALES
+
+Supabase almacena los datos en la UE (Frankfurt). En caso de transferencia fuera de la UE, se aplicarán las Cláusulas Contractuales Tipo de la Comisión Europea.
+
+---
+
+## 9. COOKIES Y TECNOLOGÍAS SIMILARES
+
+La app móvil no usa cookies. Usamos almacenamiento local del dispositivo únicamente para:
+- Mantener tu sesión iniciada
+- Guardar preferencias de la app
+
+---
+
+## 10. CAMBIOS EN ESTA POLÍTICA
+
+Te notificaremos de cambios importantes mediante:
+- Notificación push en la app
+- Email a la dirección de tu cuenta
+- Aviso al abrir la app
+
+Los cambios entran en vigor 30 días después de la notificación.
+
+---
+
+## 11. CONTACTO
+
+Para cualquier consulta sobre privacidad:  
+📧 **privacidad@cromoswap.com**
+
+---
+
+*Esta política está redactada conforme al Reglamento General de Protección de Datos (RGPD/GDPR) 2016/679, la Ley Orgánica 3/2018 de Protección de Datos Personales (LOPDGDD) y la Ley 34/2002 de Servicios de la Sociedad de la Información (LSSI).*
+
+
+
 # TÉRMINOS Y CONDICIONES DE USO DE CROMOSWAP
 
 **Última actualización:** Junio 2025  
